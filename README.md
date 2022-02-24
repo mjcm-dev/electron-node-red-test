@@ -10,7 +10,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/dceejay/electron-node-red.git
+git clone https://github.com/mjcm-dev/electron-node-red-test.git
 # Go into the repository
 cd electron-node-red
 # Install dependencies and run the app
