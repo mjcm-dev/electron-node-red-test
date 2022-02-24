@@ -10,7 +10,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/dceejay/electron-node-red.git
+git clone https://github.com/mjcm-dev/electron-node-red-test.git
 # Go into the repository
 cd electron-node-red
 # Install dependencies and run the app
@@ -44,6 +44,6 @@ If you build Node-RED package with community nodes, rename pakcage-pack.json to 
 ## License [CC0 (Public Domain)](LICENSE.md)
 
 ## See also
- - **Electron Node-RED Project which this project was forked from** - https://github.com/natcl/electron-node-red
+ - **Electron Node-RED Project which this project was forked from** - https://github.com/natcl/electron-node-red & https://github.com/dceejay/electron-node-red
  - **Stand-alone Starter Project** - https://github.com/dceejay/node-red-project-starter
  - **Bluemix Starter Project** - https://github.com/dceejay/node-red-bluemix-starter
