@@ -1,0 +1,56 @@
+{
+    "name": "electron-node-red",
+    "version": "1.0.2",
+    "description": "Electron Node-RED application starter",
+    "author": "zuhito",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron main.js",
+        "build": "node node_modules/electron-builder/out/cli/cli.js --platform all --arch all",
+        "build:osx": "node node_modules/electron-builder/out/cli/cli.js --mac --x64",
+        "build:linux32": "node node_modules/electron-builder/out/cli/cli.js --linux --ia32",
+        "build:linux64": "node node_modules/electron-builder/out/cli/cli.js --linux --x64",
+        "build:win32": "node node_modules/electron-builder/out/cli/cli.js --win --ia32",
+        "build:win64": "node node_modules/electron-builder/out/cli/cli.js --win --x64"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zuhito/electron-node-red.git"
+    },
+    "dependencies": {
+        "node-red": "*",
+        "node-red-dashboard": "*",
+        "node-red-contrib-web-worldmap": "*",
+        "node-red-node-geofence": "*",
+        "node-red-node-random": "*",
+        "node-red-node-smooth": "*",
+        "node-red-contrib-play-audio": "*",
+        "node-red-node-base64": "*",
+        "express": "*",
+        "node-red-node-notify": "*"
+    },
+    "keywords": [
+        "electron",
+        "node-red"
+    ],
+    "contributors": [
+        {
+            "name": "Dave Conway-Jones"
+        },
+        {
+            "name": "Nathanaël Lécaudé"
+        },
+        {
+            "name": "zuhito"
+        }
+    ],
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/zuhito/electron-node-red/issues"
+    },
+    "homepage": "https://github.com/zuhito/electron-node-red#readme",
+    "devDependencies": {
+        "electron": "*",
+        "electron-builder": "*"
+    }
+}
